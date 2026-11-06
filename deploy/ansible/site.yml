@@ -1,0 +1,4 @@
+- hosts: sentinel
+  become: true
+  roles:
+    - sentinel

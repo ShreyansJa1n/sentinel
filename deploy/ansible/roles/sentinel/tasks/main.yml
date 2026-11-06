@@ -1,0 +1,4 @@
+# TODO: install Docker, copy compose file and config, start the stack.
+- name: Placeholder
+  ansible.builtin.debug:
+    msg: "Sentinel deployment role not implemented yet"

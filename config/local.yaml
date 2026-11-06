@@ -1,0 +1,10 @@
+# TODO: wire into sentinel-core
+kafka:
+  bootstrapServers: localhost:9092
+  inputTopic: transactions
+  decisionTopic: decisions
+pipeline:
+  queueCapacity: 10000
+  latencyBudgetMs: 50
+plugins:
+  directory: plugins-dist

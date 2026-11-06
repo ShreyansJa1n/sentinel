@@ -1,0 +1,11 @@
+target/
+*.class
+*.jar
+*.log
+*.jfr
+*.hprof
+.idea/
+*.iml
+.vscode/
+.DS_Store
+hs_err_pid*
